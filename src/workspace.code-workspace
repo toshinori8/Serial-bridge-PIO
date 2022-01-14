@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../../../PlatformIO/Projects/Heat/Heat_Display_termostat"
+		},
+		{
+			"name": "Serial-bridge-PIO",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"memory": "cpp",
+			"optional": "cpp",
+			"array": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"typeinfo": "cpp",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
