@@ -54,25 +54,25 @@ void parseLines(char* buf) {
       }
 
       if (command=="connect") {
-        connectCommand(payload);
+       // connectCommand(payload);
       }
       else if (command=="mqttserver") {
-        mqttServerCommand(payload);
+        //mqttServerCommand(payload);
       }
       else if (command=="mqttuserpass") {
-        mqttUserPassCommand(payload);
+      //  mqttUserPassCommand(payload);
       }
       else if (command=="subscribe") {
-        subscribeCommand(payload);
+      //  subscribeCommand(payload);
       }
       else if (command=="unsubscribe") {
-        unsubscribeCommand(payload);
+      //  unsubscribeCommand(payload);
       }
       else if (command=="publish") {
-        publishCommand(payload);
+      ///  publishCommand(payload);
       }
       else if (command=="publishretained") {
-        publishretainedCommand(payload);
+       // publishretainedCommand(payload);
       }
       else if (command=="get") {
         getCommand(payload);
